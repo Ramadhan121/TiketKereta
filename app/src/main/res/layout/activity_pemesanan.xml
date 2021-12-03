@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".pemesanan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Silahkan Booking"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Kota Tujuan "
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_grup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_button_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jakarta "
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bandung "
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surabaya "
+            android:layout_marginBottom="0dp"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Kelas "
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_grup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ekonomi "
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bisnis "
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eksekutiv "
+            android:layout_marginBottom="0dp"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:ems="13"
+        android:inputType="textPersonName"
+        android:text="Total Cost"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+
+</LinearLayout>
